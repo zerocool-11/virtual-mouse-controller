@@ -10,6 +10,12 @@ Required libraries:
 * Mediapipe 0.8.7.3
 * OpenCV 4.5.3 or Higher
 
+To install the libraries
+'''
+pip install req.txt
+'''
+
+
 To start it:
 '''
 python controller.py
