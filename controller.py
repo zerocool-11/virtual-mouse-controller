@@ -269,7 +269,7 @@ finger_index="down"
 finger_middle="down"
 finger_thumb="down"
 
-cam=cv.VideoCapture(0)
+cam=cv.VideoCapture(1)
 cam.set(cv.CAP_PROP_FRAME_WIDTH, cwidth)
 cam.set(cv.CAP_PROP_FRAME_HEIGHT, cheight)
 mp_hands=mp.solutions.hands
